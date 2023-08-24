@@ -376,6 +376,9 @@ ul {
     .botao {
         background: none;
         border: none;
+        margin-top: 10px;
+        padding-right: 10px;
+        color: black;
     }
 
     .logo {
@@ -384,10 +387,20 @@ ul {
     
     .logo-principal{
         position: absolute;
-        padding-left: 0;
-        margin-top: 0;
+        padding-left: 10px;
+        margin-top: 10px;
         
     }
 
+    .primeira-section {
+        padding-top: 20px;
+    }
+
+    .texto-um-p {
+        max-width: 90vw;
+        line-height: 1.5rem;
+        text-align: left;
+        padding-top: 50px;
+    }
     
 }
