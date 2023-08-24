@@ -402,5 +402,23 @@ ul {
         text-align: left;
         padding-top: 50px;
     }
+
+    .segunda-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 50px;
+    }
     
+    .icone-section-dois {
+        width: 20px;
+    }
+
+    .segunda-section-cards {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+    }
 }
