@@ -441,4 +441,34 @@ ul {
         text-align: center;
         padding-top: 50px;
     }
+
+    .espanha {
+        padding-left: 0;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .colombia {
+        padding-left: 0;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .franca {
+        padding-left: 0;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .portugal {
+        padding-left: 0;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .peru {
+        padding-left: 0;
+        padding-top: 50px;
+        text-align: center;
+    }
 }
