@@ -471,4 +471,17 @@ ul {
         padding-top: 50px;
         text-align: center;
     }
+
+    .galeria-fotos {
+        width: 100px;
+        height: 100px;
+    }
+
+    .galeria {
+        display: grid;
+        grid-template-columns: 20% 20% 20%;
+        justify-content: center;
+        gap: 2em;
+        margin-top: 50px;
+    }
 }
