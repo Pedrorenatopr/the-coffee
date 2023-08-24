@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    font-family: roboto slab serif;
+}
+
+.cabecalho {
+
+
+}
+
+ul {
+    text-decoration: none;
+    display: inline-flex;
+    list-style: none;
+    margin-top: 2em;
+    padding: 0em 0em 1em;
+    color: black;
+}
+
+
+.estado-lista-item {
+    text-decoration: none;
+    padding: 1em;
+    color: black;
+    
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.logo-principal{
+    position: absolute;
+    padding-left: 800px;
+    margin-top: -70px;
+    
+}
+
+.icone-x {
+    position: absolute;
+    text-decoration: none;
+    margin-top: -55px;
+    margin-left: 1800px;
+    color: black;
+}
+
+.icone-teste {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+}
+
+.menu-lista {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+}
+
+
+.menu-lista :hover {
+    transform: scale(1.1);
+    transition-duration: .3s;
+}
+
+.menu-lista-item {
+    text-decoration: none;
+    padding: 1em;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.video {
+    background: rgb(255, 255, 255);
+    width: 100%
+}
+
+.texto-um {
+    display: flex;
+    justify-content: center;
+}
+
+.texto-um-p {
+    max-width: 30vw;
+    line-height: 1.5rem;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.segunda-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.segunda-section :hover {
+    transform: scale(1.1);
+    transition-duration: .3s;
+}
+
+.segunda-section-cards {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+
+.texto-menu-dois {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.lojas {
+    text-align: center;
+    padding-top: 150px;
+
+}
+
+.carrossel {
+    display: flex;
+
+}
+
+.section-carrossel {
+    padding: 1em;
+}
+
+.brasil{
+    padding-left: 200px;
+    padding-top: 200px;
+}
+
+.paises {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: center;
+}
+
+.paises-lista {
+    padding: 1em;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.espanha {
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.colombia {
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.franca {
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.portugal {
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.peru {
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 100px;
+}
+
+.carrossel {
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    transition: transform 2s ease-in-out;
+    transform: translateX(0);
+
+}
+
+.teste {
+    height: 100%;
+    padding-top: 100px;
+}
+
+
+
+.redes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 150px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.redes :hover {
+    transform: scale(1.1);
+    transition-duration: .3s;
+}
+
+.redes-carde {
+    padding: 4em;
+}
+
+.legenda-apps {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.apps {
+    display: flex;
+    justify-content: center;
+}
+
+.apps :hover {
+    transform: scale(1.1);
+    transition-duration: .3s;
+}
+
+.apps-icones {
+    padding: 2em;
+}
+
+.imprensa-e-premios {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.imprensa-logos {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    justify-content: center;
+    gap: 4em;
+    padding: 5em;
+}
+
+.imprensa-logos :hover {
+    transform: scale(1.1);
+    transition-duration: .3s;
+}
+
+.legenda-investidores {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.investidores {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 4em;
+}
+
+.investidores :hover {
+    transform: scale(1.1);
+    transition-duration: .3s;
+}
+
+.investidores-dois {
+    display: grid;
+    grid-template-columns: 15% 15%;
+    justify-content: center;
+    gap: 4em;
+    padding-top: 50px;
+
+}
+
+.investidores-dois :hover {
+    transform: scale(1.1);
+    transition-duration: .3s;
+}
+
+.footer {
+    background: black;
+    padding: 1em;
+    margin-top: 100px;
+}
+
+
+.logo-footer {
+    position: absolute;
+    color: white;
+    margin-left: 170px;
+    margin-top: 30px;
+
+}
+
+.lista-footer {
+    display: grid;
+    color: white;
+    padding-left: 400px;
+    grid-template-columns: 10% 10% 10% 10% 10%;
+
+}
+
+.lista-footer :hover {
+    transform: scale(1.1);
+    transition-duration: .3s;
+}
+
+.lista-footer-itens {
+    color: white;
+    text-decoration: none;
+}
+
+.redes-footer {
+    position: absolute;
+    margin-left: 800px;
+
+}
+
+.redes-footer-icones{
+    padding: 0.5em;
+}
+
+.final {
+    text-align: center;
+    font-weight: 700;
+    font-size: 11.2px;
+}
+
+.icones {
+    display: none;
+}
+
+@media screen and (max-device-width: 700px) {
+
+    .temporario {
+        display: none;
+    }
+
+    .cabecalho {
+
+    }
+
+    .estado-lista {
+        display: none;
+    }
+
+    .menu-lista {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    
+    .icones {
+        display: flex;
+        justify-content: end;
+    }
+    
+    .botao {
+        background: none;
+        border: none;
+    }
+
+    .logo {
+        margin-top: 0;
+    }
+    
+    .logo-principal{
+        position: absolute;
+        padding-left: 0;
+        margin-top: 0;
+        
+    }
+
+    
+}
