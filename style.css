@@ -485,5 +485,110 @@ ul {
         margin-top: 50px;
     }
 
+    .carrossel {
+        display: none;
+    }
+
+    .redes {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 50px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .redes-carde {
+        padding: 1em;
+    }
+
+    .legenda-apps {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .logos {
+        width: 70px;
+    }
+
+    .imprensa-e-premios {
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .legenda-investidores {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .investidores-lista {
+        width: 70px;
+    }
+
+    .investidores {
+        display: grid;
+        grid-template-columns: 10% 10% 10% 10%;
+        justify-content: center;
+        padding-top: 70px;
+        gap: 3em;
+    }
+
+    .footer {
+        background: black;
+        padding: 1em;
+        margin-top: 100px;
+        height: 350px;
+    }
+
+    .logo-footer {
+        position: absolute;
+        color: white;
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+        width: 80px;
+    }
+
+    .lista-footer {
+        display: inline-block;
+        color: white;
+        padding-left: 0;
+        text-align: center;
+        width: 100%;
+        padding: 1em;
+    
+    }
+
+    .redes-footer {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        padding-top: 0px;
+        padding-left: 0;
+        padding-top: 20px;
+        margin-left: 0;
+        width: 80%;
+    
+    }
+
+    .logo-footer-final {
+        display: flex;
+        justify-content: center;
+    }
+
+    .teste-footer {
+        display: none;
+    }
+
+    .final {
+        text-align: center;
+        font-weight: 700;
+        font-size: 11.2px;
+        padding-top: 10px;
+    }
+
+    .texto-final {
+        height: 40px;
+    }
 
 }
